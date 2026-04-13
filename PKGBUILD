@@ -15,9 +15,7 @@ optdepends=('libgnome-keyring'
             'pulseaudio')
 options=('!strip' '!emptydirs')
 install=${pkgname}.install
-source_i686=("PUT_FULL_URL_FOR_DOWNLOADING_i386_DEB_PACKAGE_HERE")
-source_x86_64=("PUT_FULL_URL_FOR_DOWNLOADING_amd64_DEB_PACKAGE_HERE")
-sha512sums_i686=('PUT_SHA512SUM_OF_i386_DEB_PACKAGE_HERE')
+source_x86_64=("https://github.com/eriqjaffe/NodeRadioTray/releases/download/0.10.8/noderadiotray_0.10.8_amd64.deb")
 sha512sums_x86_64=('6b940532ffa5523d3b02b683b4529046764538b2f556c92bf5b78b149344137b6c1e3764a66777386e071845d20360f86948d5ec405397cb12b383e211c4047f')
 
 package(){
